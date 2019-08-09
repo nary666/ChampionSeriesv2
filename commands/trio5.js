@@ -27,7 +27,7 @@ module.exports.run = async (blaki, message, args) => {
     .addField("**HOST:**", `${message.author}`, true)
     .addField("**ZASADY:**", zasady0 + `\n` +zasady1 + `\n`+ zasady2 + `\n`+ zasady3 + `\n`+ zasady4)
     .setTimestamp(message.createdAt)
-    .setFooter("Gra zacznie się o godzinie 20:05 | Bot stworzony przez gs_nary#1297", "https://i.imgur.com/U26NLKj.png");
+    .setFooter("Gra zacznie się o godzinie 21:05 | Bot stworzony przez gs_nary#1297", "https://i.imgur.com/U26NLKj.png");
     message.channel.send(everyone.toString());
     message.channel.send(customEmbed).then(function (message) {
         message.react(check)
